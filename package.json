@@ -1,6 +1,6 @@
 {
   "name": "sass-styleguide",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -41,7 +41,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "broccoli-merge-trees": "^1.1.1",
+    "broccoli-sass-lint": "^0.1.2",
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-sass-lint": "0.1.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
