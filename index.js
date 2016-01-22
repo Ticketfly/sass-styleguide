@@ -14,7 +14,7 @@ module.exports = {
 
     this.app = app;
     this.sassLintOptions = app.options.sassLint || {
-      configPath: 'node_modules/sass-styleguide/blueprints/sass-styleguide/files/.sass-lint.yaml'
+      configPath: 'node_modules/sass-styleguide/blueprints/sass-styleguide/files/.sass-lint.yml'
     };
   },
 
