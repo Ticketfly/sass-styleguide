@@ -1,5 +1,7 @@
 files:
   include: '**/*.s+(a|c)ss'
+  ignore:
+    - '**/fonts/*.*'
 options:
   formatter: stylish
   merge-default-rules: false
